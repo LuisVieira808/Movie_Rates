@@ -12,7 +12,7 @@ namespace MovieRates.Models
     public class Categorias
     {
         /// <summary>
-        /// Construtor
+        /// Construtor da classe
         /// </summary>
         public Categorias()
         {

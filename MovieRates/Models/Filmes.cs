@@ -65,12 +65,6 @@ namespace MovieRates.Models
         public string Descricao { get; set; }
 
         /// <summary>
-        /// Categoria atribuida ao filme
-        /// </summary>
-        [Required]
-        public string Categoria { get; set; }
-
-        /// <summary>
         /// Link da Stream
         /// </summary>
         [Required]
