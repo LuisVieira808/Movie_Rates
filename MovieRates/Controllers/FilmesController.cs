@@ -13,7 +13,7 @@ using MovieRates.Models;
 
 namespace MovieRates.Controllers
 {
-[Authorize]
+
     public class FilmesController : Controller
     {
         /// <summary>
@@ -35,7 +35,9 @@ namespace MovieRates.Controllers
 
         // GET: Filmes
         public async Task<IActionResult> Index()
-        {                        
+        {
+
+
             return View(await _context.Filmes.ToListAsync());
         }
 
